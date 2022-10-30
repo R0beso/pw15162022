@@ -1,0 +1,237 @@
+
+/* HEADER */
+
+body{
+    font-size: 16px;
+    font-family: Arial;
+    margin: 0px auto;
+    min-width: 1024px;
+    max-width: 1024px;
+}
+
+header div img{
+    display: block;
+}
+
+#logos{
+    margin-top: 15px;
+    margin-bottom: 37px;
+}
+
+#redes div{
+    display: inline-block;
+    width: 26px;
+    margin-right: 16px;
+}
+
+#logoPrin{
+    width: 220px;
+}
+
+
+#redes{
+    float: right;
+    margin-top: -90px;
+    margin-right: 15px;
+}
+
+#imgThe{
+    width: 290px;
+}
+
+/* NAV */
+
+header nav{
+    border-radius: 6px;
+}
+
+header nav ul{
+    margin-left: -20px;
+    margin-bottom: -1px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 15px 12px 15px 0;
+}
+
+.degradado{
+    background: 
+        linear-gradient(
+            #f87509 5%,
+            #fcb283 15%,
+            #e85d00 50%);
+}
+
+.letrablanca{
+    color: white;
+}
+
+.letramediana{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* MAIN */
+
+main{
+    margin: 0px auto;
+    max-width: 95%;
+    box-shadow: 0px 10px 15px 11px rgba(0,0,0,0.13);
+    -webkit-box-shadow: 0px 10px 15px 11px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 10px 15px 11px rgba(0,0,0,0.13);
+}
+
+    /* SECCION PRINCIPAL */
+
+    
+    main > div{
+        display: inline-block;
+        width: 63%;
+        margin: 19px 5px 0px 13px;
+    }
+
+    main > div section{
+        border-bottom: 1px solid lightgray;
+    }
+
+    main > div article img{
+        width: 96%;
+    }
+
+    .section article img{
+        display: inline-block;
+        border: 6px solid lightgray;
+        width: 29%;
+    } 
+
+    .letrachica{
+        font-size: 0.8em;
+    }
+
+    .post{
+        margin-bottom: 12px;
+    }
+
+    .titulo{
+        color: gray;
+        display: block;
+        font-size: 2em;
+        font-weight: bold;
+        padding: 10px 0px;
+    }
+
+    .subtitulo{
+        display: inline-block;
+        margin-left: 5px;
+        vertical-align: top;
+        width: 65%;
+    }
+
+    .subtitulo input[type="button"]{
+        color: white;
+        background-color: rgb(201, 201, 201);
+        border: 1px solid rgb(201, 201, 201);
+        font-family: Arial;
+        font-style: italic;
+        display: block;
+        margin: 15px 0 0;
+        font-weight: bold;
+        padding: 7px;
+        border-radius: 10px;
+    }
+
+    .subtituloMas{
+        border-radius: 8px;
+        box-shadow: 0px 3px 6px -4px rgb(115, 115, 115);
+        margin-bottom: -5px;
+        padding: 5px 0px;
+        text-indent: 10px;
+    }
+
+    .referencias{
+        color: gray;
+        font-style: italic;
+    }
+
+    /* ASIDE */
+
+    aside{
+        display: inline-block;
+        width: 33%;
+        margin-top: 43px;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    aside section article{
+        border-radius: 17px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border: 1px solid lightgray;
+        box-shadow: -1px 1px 9px -1px rgba(0,0,0,0.2);
+        -webkit-box-shadow: -1px 1px 9px -1px rgba(0,0,0,0.2);
+        -moz-box-shadow: -1px 1px 9px -1px rgba(0,0,0,0.2);
+    }
+
+
+    .buscador{
+        border: 1px solid lightgray;
+        border-radius: 15px;
+        margin: 0px auto;
+        width: 82%;
+    }
+
+    aside section article img{
+        width: 47%;
+        display: inline;
+    }
+
+    aside section article span{
+        display: block;
+        width: 100%;
+        margin-top: -3px;
+        margin-bottom: 15px;
+        padding: 10px 0;
+        border-radius: 20px;
+    }
+
+    aside section article div input{
+        border-radius: 10px;
+        font-family: Arial;
+    }
+
+    aside section article div input:last-child{
+        font-size: 0.61em;
+    }
+
+    aside section article div{
+        border-radius: 10px;
+    }
+
+    aside section article ul{
+        text-align: left;
+    }
+
+    aside section article ul li{
+        border-bottom: 1.5px dotted rgb(108, 108, 108);
+        padding: 8px 0 3px 0;
+        width: 90%;
+    }
+
+
+    aside section article div input[type="search"]{
+        border: 1px solid gray;
+        line-height: 1.6em;
+        width: 83%;
+        margin: 5px 0;
+        text-indent: 5px;
+    }
+
+    aside section article div input[type="submit"]{
+        background-color: darkgray;
+        border: 1.5px solid gray;
+        border-radius: 50%;
+        margin: 5px 0px;
+        aspect-ratio: 1;
+    }
