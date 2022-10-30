@@ -1,0 +1,185 @@
+
+body {
+    background-color: c;
+    font-family: sans-serif;
+    margin: auto 0px;
+    font-size: 16px;
+    background-color: #4A6BAE;
+}
+
+header {
+    text-align: center;
+    background-color: #235d92;
+}
+
+header nav {
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    border-top-left-radius: 5px;
+    margin: 0px 5px 0px 5px;
+    border-top-right-radius: 5px;
+}
+
+header nav ul {
+    text-align: right;
+    background-color: #efefef;
+}
+
+header nav ul li {
+    display:inline-block;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+section.barra {
+    padding-bottom: 10px;
+}
+
+section.barra article {
+    background-color: #235d92;
+    margin: 0px 10px 15px 20px;
+    color: #fefbfe;
+}
+
+section.barra article ul li {
+    padding: 5px 0px;
+    margin: 2px 0px 2px -25px;
+    text-indent: 0em;
+}
+
+section.barra article ul {
+    list-style: none;
+    background-color: #1d4972;
+    margin-top: 0px;
+}
+
+section.barra article ul li:before {
+    content: "</> ";
+}
+
+.barraB {
+    background-color: #ffffff;
+    color: #757575;
+    padding-top: 10px;
+}
+
+.barraB img{
+    width: 95%;
+    margin-left: 10px;
+}
+
+.barraB span {
+    padding: 10px 0px 0px 15px;
+}
+
+main {
+    display: flex;
+    background-color: #efefef;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0px 5px 0px 5px;
+}
+
+.logoseccion {
+    width: 35px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.right {
+    width: 74%;
+    padding: 30px 0px 20px 0px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.barra {
+    width: 25%;
+}
+
+
+.right h3 {
+    color: gray;
+    margin: 0px 30px 5px 30px;
+    font-weight: normal;
+}
+
+.cuadros {
+    display: flex;
+    margin: 0px 20px 0px 20px;
+}
+
+.cuadro {
+    display: inline;
+    width: 25%;
+    text-align: center;
+    margin: 10px 5px 10px 5px;
+    padding: 20px 0px 40px 0px;
+    background-color:#1d4972;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.cuadro p {
+    margin: 0px 1em 0px 1em;
+}
+
+.center{
+    text-align: center;
+}
+
+.cuadro img {
+    padding-top: 20px;
+    width: 40%;
+}
+
+.cuadroverde {
+    background-color: #1aa721;
+}
+
+.cuadroazul {
+    background-color: #196da9;
+}
+
+.cuadromorado {
+    background-color: #7f19aa;
+}
+.cuadrorojo {
+    background-color: #a81b15;
+}
+
+#SegundaSeccion img{
+    width: 96%;
+}
+#TerceraSeccion h3{
+    margin: 5px;
+}
+#TerceraSeccion div{
+    display: inline-block;
+    text-align: center;
+    background-color: #4A6BAE;
+    width: 17vw;
+    margin: 5px;
+    width: 300px;
+    height: 315px;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 15px;
+}
+
+#TerceraSeccion div img{
+    width: 20px;
+}
+
+#TerceraSeccion div > img{
+    width: 70%;
+}
+
+button{
+    background-color: #61BED9;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: #61BED9;
+    padding: 8px;
+
+}
